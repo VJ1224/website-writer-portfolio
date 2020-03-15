@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Raleway" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/work.css">
+    <script src="js/work.js"></script>
+
+    <title>Work</title>
+</head>
+
+<body>
+    <img src="images/logo.png" class="logo">
+    <nav class="navbar navbar-expand-md">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon">&#8801</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="work.html">WORK</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                <li class="nav-item"><a class="nav-link" href="subscribe.html">SUBSCRIBE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <h3>Description</h3>
+        <p>Kanika has written many articles for international and national publications. To read them, click on the browse button below.</p>
+    </div>
+
+    <div class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="" id="link1" onclick="insertContent('link1')" data-toggle="modal" data-target="#modaldisplay">The Trophy Dog</a>
+        <a href="" id="link2" onclick="insertContent('link2')" data-toggle="modal" data-target="#modaldisplay">To The Food Blogger Who Is Taking Pictures Of My Meal</a>
+        <a href="" id="link3" onclick="insertContent('link3')" data-toggle="modal" data-target="#modaldisplay">A New Year’s Resolution Without Deadlines</a>
+        <a href="" id="link4" onclick="insertContent('link4')" data-toggle="modal" data-target="#modaldisplay">We Women Have To Be 'Practical', Don't We?</a>
+        <a href="" id="link5" onclick="insertContent('link5')" data-toggle="modal" data-target="#modaldisplay">Soul-searching in Spanish, in syncretic harmony</a>
+        <a href="" id="link6" onclick="insertContent('link6')" data-toggle="modal" data-target="#modaldisplay">Portraits of the present</a>
+        <a href="" id="link7" onclick="insertContent('link7')" data-toggle="modal" data-target="#modaldisplay">Females Only</a>
+        <a href="" id="link8" onclick="insertContent('link8')" data-toggle="modal" data-target="#modaldisplay">Clutter</a>
+    </div>
+
+    <button type="submit" onclick="openNav();" class="openbtn btn btn-lg btn-danger">Browse</button>
+
+    <div class="modal fade" id="modaldisplay">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                    <button type="button" class="close" data-dismiss="modal" onclick="clearContent();">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="clearContent();">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Raleway " rel="stylesheet ">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/email.js"></script>
+
+    <title>Contact</title>
+</head>
+
+<body>
+    <img src="images/logo.png" class="logo">
+    <nav class="navbar navbar-expand-md">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon">&#8801</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="work.html">WORK</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                <li class="nav-item"><a class="nav-link" href="subscribe.html">SUBSCRIBE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid social-media">
+        <h2>Social Media:</h2>
+        <a href="https://www.facebook.com/vansh.jain.9469" target="_blank"><img src="images/facebook.svg" class="social-media-link" style="width:100px;height:100px;" alt="Facebook Link"></img></a>
+        <a href="https://twitter.com/vanshjain1224" target="_blank"><img src="images/twitter.svg" class="social-media-link" style="width:100px;height:100px;" alt="Twitter Link"></img></a>
+        <a href="https://www.instagram.com/vanshjain1224/" target="_blank"><img src="images/instagram.svg" class="social-media-link" style="width:100px;height:100px;" alt="Instagram Link"></img></a>
+    </div>
+
+    <form name="contact" id="contact" method="post">
+        <div class="jumbotron form">
+            <h3>Contact Me</h3>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter Name" name="name" id="name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="mail">Email Address</label>
+                        <input type="text" placeholder="Enter Email address" name="email" id="email" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mail">Subject</label>
+                <input type="text" placeholder="Enter Email subject" name="subject" id="subject" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="mail">Body</label>
+                <textarea type="text" placeholder="Enter Email body" name="body" id="body" class="form-control"></textarea>
+            </div>
+            <button type="button" onclick="checkEmailInput();" class="btn btn-dark">Send</button>
+        </div>
+    </form>
+</body>
+
+</html>

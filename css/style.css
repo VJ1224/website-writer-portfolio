@@ -1,0 +1,101 @@
+body {
+    background-color: #fbfdfd;
+    color: #545454;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.3s;
+}
+
+.navbar {
+    background-color: #191c1d;
+    border: 0;
+}
+
+.navbar > .navbar-collapse ul li a {
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar > .navbar-collapse ul li a:hover {
+    color: #a9a9a9;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 1500%;
+}
+
+.logo {
+  height: 55px;
+  width: 100px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  z-index: 1;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 40px 50px 40px 50px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 10px;
+}
+
+#signup {
+    margin-bottom: 0;
+    padding: 32px;
+    background-color: transparent;
+}
+
+.carousel-item {
+    background-color: #191c1d;
+    height: 500px;
+}
+
+.carousel-item > img {
+    max-height: 500px;
+    max-width: 784px;
+}
+
+@media only screen and (max-width: 450px) {
+    .gallery {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    .gallery {
+        width: 70%;
+    }
+}
+
+.landing {
+    background-color: #e0e0e0;
+    width: 100%;
+}
+
+.overlay-alert {
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 2;
+}
+
+.social-media {
+    background-color: #e0e0e0;
+}
+
+.social-media-link {
+    margin-right: 30px;
+}
